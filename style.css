@@ -9,6 +9,7 @@
     --color-secondary: #F7F9FE;
     --color-third: #3C8DC5;
 }
+
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
@@ -24,4 +25,19 @@ body{
     border-color: var(--color-third);
     color: var(--color-secondary);
     transition: all .4s ease-in-out;
+}
+@media (min-width: 400px) {
+    .container-sm{
+        width: 350px;
+    }
+}
+@media (min-width: 500px) {
+    .container-sm{
+        width: 500px;
+    }
+}
+@media (min-width: 1000px){
+    .container-sm{
+        width: 55%;
+    }
 }
