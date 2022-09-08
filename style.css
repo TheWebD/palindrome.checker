@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+:root{
+    --color-primary:  #3E4147;
+    --color-secondary: #F7F9FE;
+    --color-third: #3C8DC5;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    transition: all .4s ease-in-out;
+}
+.container-sm{
+    width: 45rem;
+    box-sizing: border-box;
+}
+.btn-primary{
+    border-color: var(--color-third);
+    color: var(--color-secondary);
+    transition: all .4s ease-in-out;
+}
