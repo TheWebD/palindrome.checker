@@ -4,6 +4,7 @@ const combinedWord = document.getElementById("combinedWord");
 const reversedWord = document.getElementById("reversedWord");
 const checkBtn = document.getElementById("checkBtn");
 const clearBtn = document.getElementById('clearBtn');
+const outputArea = document.getElementById('outputArea');
 //ends here
 
 //We called the checkBtn and access the property of oncllick and assign the value which is the Method.
@@ -20,9 +21,9 @@ checkBtn.onclick = function(){
 
         //And now let's validate it if it is true or not.
         if(combineWord == reverseWord){
-            alert("It's Palindrome");
+            outputArea.value = "It's Palindrome"
         }else{
-            alert("It's not Palindrome");
+            outputArea.value = "It's not Palindrome"
         }
 }       //ends here
 //ends here
