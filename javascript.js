@@ -21,9 +21,9 @@ checkBtn.onclick = function(){
 
         //And now let's validate it if it is true or not.
         if(combineWord == reverseWord){
-            outputArea.value = "It's Palindrome"
+            outputArea.innerHTML = "It's Palindrome"
         }else{
-            outputArea.value = "It's not Palindrome"
+            outputArea.innerHTML = "It's not Palindrome"
         }
 }       //ends here
 //ends here
