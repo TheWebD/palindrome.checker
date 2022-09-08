@@ -1,0 +1,3 @@
+# palindrome.checker
+
+Palindrome checker
