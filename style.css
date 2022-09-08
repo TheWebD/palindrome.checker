@@ -26,6 +26,13 @@ body{
     color: var(--color-secondary);
     transition: all .4s ease-in-out;
 }
+.outputArea{
+    transition: all .4s ease-in-out;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    padding: .5rem .5rem;
+    height: 5rem;
+}
 @media (min-width: 400px) {
     .container-sm{
         width: 350px;
